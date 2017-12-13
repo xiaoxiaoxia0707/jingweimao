@@ -245,7 +245,7 @@ p {
 }
 
 .cell-left {
-    margin-left: 10px;
+    margin-left: 10px!important;
 }
 .upline:before,
 .underline:after {
