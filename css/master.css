@@ -1,7 +1,14 @@
 * {
-  font-size: 14px;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    list-style: none;
 }
-ul,
+
+a {
+    text-decoration: none;
+    color: inherit;
+}ul,
 p {
   margin: 0;
   padding: 0;
@@ -74,3 +81,325 @@ p {
 .editAddress-content  .checkbox:checked + .switch {
   background-color: #a7cf14;
 }
+/**
+ * 个人信息页面
+ */
+.ub{
+    margin-bottom: 2.3rem;
+}
+.myheader {
+    width: 100%;
+    height: 7.7rem;
+    background: url(../images/userBg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.myheader .mypic {
+    display: block;
+    margin: 1.65rem auto 0;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid rgba(255, 255, 255, 0.5);
+}
+
+.myheader .myname {
+    margin-top: 0.2rem;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.myheader .mygrade {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.myheader .myblind {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 14px;
+    color: #fff;
+}
+
+.myitem {
+    height: 2.4rem;
+    width: 100%;
+    line-height: 2.4rem;
+    background-color: #fff;
+    position: relative;
+}
+.myitem-title {
+    display: inline-block;
+    margin-left: 0.25rem;
+    font-size: 16px;
+}
+
+.myitem-text {
+    display: inline-block;
+    margin-left: 0.4rem;
+    font-size: 14px;
+}
+.new-title {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.myitem-detail {
+    display: inline-block;
+    color: #c2c2c2;
+    font-size: 12px;
+}
+
+.myitem-arrow-small {
+    vertical-align: middle;
+    width: 0.35rem;
+    height: 0.6rem;
+}
+
+.myitem-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0.1rem;
+    margin-top: -0.45rem;
+    width: 0.5rem;
+    height: 0.9rem;
+}
+
+.myorder {
+    height: 2.65rem;
+    margin-top: 0.2rem;
+    line-height: 2.65rem;
+    overflow: hidden;
+}
+.myitem-ico {
+    float: left;
+    display: inline-block;
+    height: 1.0rem;
+    width: 1.0rem;
+    position: relative;
+    top: 50%;
+    margin-top: -0.5rem;
+}
+
+.order-inf {
+    height: 3.55rem;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+.order-inf .detail-box {
+    height: 3.55rem;
+    position: relative;
+}
+
+.order-inf .detail-box:not(:first-child):after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 50px;
+    margin: 0.5rem 0;
+    width: 1px;
+    background-color: #dadada;
+    z-index: 1;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    transform-origin: 0 0;
+}
+
+.order-inf .order-ico {
+    display: block;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0.65rem auto 0.2rem;
+}
+
+.order-inf .order-text {
+    text-align: center;
+    font-size: 14px;
+    color: #727071;
+}
+.flex-box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.cell-main {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.cell-right {
+    margin-right: 10px;
+}
+
+.cell-left {
+    margin-left: 10px;
+}
+.upline:before,
+.underline:after {
+    /*0.5像素的线*/
+    content: '';
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dadada;
+    display: block;
+    z-index: 1;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.bar-tab:before {
+            background-color: #d0d5de;
+        }
+        .bar .ico {
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    margin: 0.4rem auto 0;
+}
+.tab-label {
+    margin-top: 0.1rem;
+    font-size: 12px;
+}
+.opentime {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: #fff;
+}
+#settingBtn{
+  position: absolute;
+    top: 20px;
+    height:24px;
+    width: 24px;
+    right:60px;
+}
+#messageBtn{
+    position: absolute;
+    top: 20px;
+    height:24px;
+    width: 24px;
+    right:20px;
+}
+/**********************************个人信息设置页面begin**********************************/
+.account-content .sex-card {
+  margin: 0;
+}
+.account-content .sex-card:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  height: 1px;
+  width: 100%;
+  background-color: #dadada;
+  display: block;
+  z-index: 15;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.account-content .sex-card .item-title {
+  font-size: 16px;
+}
+.account-content .img-card .list-block .item-inner {
+  min-height: 3rem;
+}
+.account-content .img-card .list-block .item-after {
+  max-height: 2.8rem;
+}
+.account-content .sex-card img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid rgba(171, 171, 171, 0.5);
+}
+.account-content .sex-card .item-after {
+  margin: 0;
+  font-size: 14px;
+  color: #999;
+}
+.select {
+  display: none;
+  position: fixed;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 60%;
+  border-radius: 5px;
+  background-color: #fff;
+  padding-bottom: 15px;
+}
+.select .select-sex {
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  display: -webkit-box;
+  /* android 2.1-3.0, ios 3.2-4.3 */
+  position: relative;
+}
+.select h1 {
+  flex: 1;
+  -webkit-box-flex: 1;
+  /* android 2.1-3.0, ios 3.2-4.3 */
+  font-size: 16px;
+}
+input[type=checkbox] {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  width: 19px;
+  height: 19px;
+  border: none;
+  background: url("../images/type-check.png");
+  -webkit-appearance: none;
+  background-size: 19px, 19px;
+}
+input[type=checkbox]:checked {
+  background: url("../images/type-checked.png");
+  background-size: 19px, 19px;
+}
+.mr0 {
+  max-width: 40px;
+  margin: 0 5px 0 0;
+  padding: 0;
+  text-align: right;
+  font-size: 14px !important;
+  color: #999 !important;
+}
+.webuploader-pick {
+  width: 100%;
+  padding: 0;
+  background: none;
+  color: none;
+}
+.account-content .sex-card input{
+  color: #999;
+  font-size: 14px;
+  text-align: right;
+}
+/**********************************个人信息页面end**********************************/
