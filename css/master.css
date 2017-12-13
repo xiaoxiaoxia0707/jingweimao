@@ -1,0 +1,76 @@
+* {
+  font-size: 14px;
+}
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+/**
+ * 编辑地址页面
+ */
+.editAddress-content .list-block .item-media + .item-inner{
+	margin-left:0rem;
+}
+.editAddress-content .list-block li:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  height: 1px;
+  width: 100%;
+  background-color: #dadada;
+  display: block;
+  z-index: 15;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.editAddress-content .list-block .item-inner:after {
+  display: none;
+}
+.editAddress-content  .msg-item {
+  box-sizing: border-box;
+  height: 2.1rem;
+  padding: 0.5rem 0.75rem;
+  background-color: #fff;
+}
+.editAddress-content  .msg-text {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.editAddress-content  .checkbox {
+  display: none;
+}
+.editAddress-content  .switch {
+  display: inline-block;
+  width: 2.5rem;
+  height: 1.2rem;
+  border-radius: 0.6rem;
+  position: relative;
+  background-color: #bdbdbd;
+  overflow: hidden;
+  box-shadow: #ccc 0 0 0 1px;
+}
+.editAddress-content  .switch:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 20;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.editAddress-content  .checkbox:checked + .switch:before {
+  left: 26px;
+}
+.editAddress-content  .checkbox:checked + .switch {
+  background-color: #a7cf14;
+}

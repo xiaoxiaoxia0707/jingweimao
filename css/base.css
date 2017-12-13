@@ -1,0 +1,93 @@
+.swiper-wrapper {
+  height: auto;
+}
+.swiper-slide img {
+  width: 100%;
+}
+.swiper-slide .title {
+  font-style: italic;
+  font-size: 42px;
+  margin-top: 80px;
+  margin-bottom: 0;
+  line-height: 45px;
+}
+.swiper-pagination {
+  position: absolute;
+  z-index: 20;
+  margin: 0 auto;
+  left: 50%;
+  bottom: 10px;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #fff;
+  margin-right: 5px;
+  opacity: 0.8;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.swiper-visible-switch {
+  background: #aaa;
+}
+.swiper-active-switch {
+  background: #ddc27b;
+}
+.swiper-pagination {
+  left: 50%!important;
+  transform: translateX(-50%) !important;
+  -webkit-transform: translateX(-50%) !important;
+}
+.swiper-slide img {
+  height: auto!important;
+  max-height: 200px!important;
+}
+/*max-height: 225px!important;*/
+
+.bar .icon {
+  color: #fff;
+  font-size: 0.9rem;
+}
+.bar-nav a:first-child {
+  margin-left: 0.4rem;
+}
+.title {
+  letter-spacing: 1px;
+  font-family:"Helvetica Neue", Helvetica, sans-serif;
+  line-height: 46px;
+  font-weight: normal;
+  font-size: 16px;
+}
+//设置头部的向左跳转
+.bar .left .button{
+  color: #a7cf14;
+}
+.bar .right{
+  
+}
+.bar .button-nav.pull-left {
+  margin-left: 0.75rem!important;
+}
+.bar .button-nav.pull-right {
+   margin-right: 0.75rem!important;
+}
+.bar .iconfont{
+  color: #a7cf14;
+}
+//编辑地址的保存
+#editBtn{
+ 
+}
+#editBtn .button {
+   width: 90%;
+  margin: 24px auto 0;
+  border-radius: 4px;
+  background: #a7cf14;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  border: 1px solid #a7cf14;
+  color: #fff;
+}
