@@ -100,3 +100,16 @@
   border: 1px solid #a7cf14;
   color: #a7cf14;
 }
+.bar-tab:before {
+            background-color: #d0d5de;
+        }
+        .bar .ico {
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    margin: 0.4rem auto 0;
+}
+.tab-label {
+    margin-top: 0.1rem;
+    font-size: 12px;
+}
