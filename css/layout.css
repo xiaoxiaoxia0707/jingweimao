@@ -6,14 +6,12 @@
     font-weight: normal;
     list-style: none;
 }
-
 .way-content .bg-icon {
     background: url("../images/bg-2.png") no-repeat;
     background-size: cover;
     width: 100%;
     overflow: hidden;
 }
-
 .content {
     top: 0.8rem;
 }
