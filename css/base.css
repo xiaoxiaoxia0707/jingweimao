@@ -76,10 +76,8 @@
 .bar .iconfont{
   color: #a7cf14;
 }
-//编辑地址的保存
-#editBtn{
- 
-}
+
+
 #editBtn .button {
    width: 90%;
   margin: 24px auto 0;
@@ -90,4 +88,15 @@
   font-size: 16px;
   border: 1px solid #a7cf14;
   color: #fff;
+}
+#editBtn .previewBtn{
+   width: 90%;
+  margin: 24px auto 0;
+  border-radius: 4px;
+  background: #f5f6f7;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  border: 1px solid #a7cf14;
+  color: #a7cf14;
 }
