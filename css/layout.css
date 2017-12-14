@@ -91,6 +91,20 @@
     font-size: 14px;
     color: #999999;
 }
+.way-content  .box-inf:nth-child(n+1) {
+        height: 66px;
+        line-height: 66px;
+    }
+.way-content .list-block .item-content,.way-content .list-block.media-list .item-inner{
+            padding:0;
+        } 
+.way-content  .after-div {
+    float: right;
+}
+.way-content .list-block li {
+        background-color: #fff;
+    }
+
 
 /**********************************提现页面end**********************************/
 /**********************************提现记录页面begin**********************************/
