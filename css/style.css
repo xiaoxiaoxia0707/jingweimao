@@ -26,7 +26,7 @@ p {
   position: relative;
   // background-size: cover;
 }
-.openGroup-content .searchbar .add-div,.openGroup-content .searchbar .search{
+.openGroup-content .searchbar .add-div,.openGroup-content .searchbar .search .openGroup-content{
    float: left;
  
 }
@@ -45,6 +45,7 @@ p {
 .openGroup-content .searchbar .add-div{
 	width: 9%;
 	margin-left: 3%;
+
 }
 .openGroup-content .searchbar .search-span{
    float: right;
@@ -52,6 +53,14 @@ p {
    margin-right: 3%;
    line-height: 2.4rem;
    font-size:16px; 
+}
+.openGroup-content #leftBtn{
+  height:2.4rem;
+  width: 9%;
+  margin-left: 3%; 
+  line-height: 2.4rem;
+  color: #b1d530;
+  font-size: 20px;
 }
 .openGroup-content .searchbar .add-div img{
 	margin-left: 5px;
@@ -161,5 +170,29 @@ p {
 .openGroup-content .status-span{
   color: #ff000c;
   font-size: 16px;
+}
+.openGroup-content .hot-p{
+  font-size: 16px;
+  color: #333333;
+  line-height: 30px;
+
+}
+.openGroup-content .hot-div{
+  padding:10px;
+  background: #fff;
+}
+.openGroup-content .hot-div span{
+    padding: 2px 8px;
+    background: #f7f7f7;
+    color: #888888;
+    height:36px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 4px;
+    margin-left: 10px;
+    float: left; 
 }
 /******************************开团end******************************/
