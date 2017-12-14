@@ -13,6 +13,136 @@ p {
   margin: 0;
   padding: 0;
 }
+/******************************地址列表页面begin******************************/
+.manageAddress .bar-footer {
+  text-align: center;
+  line-height: 2.25rem;
+  color: #FFFFFF;
+  background: #ff8309;
+}
+.manageAddress li {
+  padding-top: 15px;
+  background: #FFFFFF;
+  margin-bottom: 15px;
+}
+.manageAddress .o-address {
+  min-height: 2em;
+}
+.manageAddress .address-fn {
+  padding: 5px 0;
+  line-height: 20px;
+}
+.manageAddress .address-fn input {
+  vertical-align: middle;
+}
+// .manageAddress .c-box:after {
+//   content: '默认地址';
+//   font-size: 14px;
+// }
+.manageAddress .fn-btn {
+  float: right;
+  margin-right: 4%;
+}
+.manageAddress .iconfont {
+  padding-right: 5px;
+}
+.manageAddress .fn-btn a {
+  padding: 7px 0;
+}
+.manageAddress .fn-btn a:first-child {
+  padding-right: 15px;
+}
+.manageAddress .o-tel{
+  float: right;
+  margin-right: 0.75rem;
+}
+i.icon-form-checkbox {
+  margin-right: 4px;
+  width: 0.7rem;
+  height: 0.7rem;
+  position: relative;
+  border-radius: 1.1rem;
+  border: 1px solid #c7c7cc;
+  box-sizing: border-box;
+}
+i.icon-form-checkbox {
+  color: #7ec420;
+  background: no-repeat center;
+  background-image: url("../images/da.png");
+  background-size: 0.6rem 0.45rem;
+  border: 1px solid #7ec420;
+  background-color: #fff;
+}
+.button {
+  height: 2.25rem !important;
+  line-height: 2.25rem !important;
+  font-size: 14px;
+}
+.c-box {
+  font-size: 12px;
+  float: left;
+  height: 40px;
+   display: block;
+   text-align: center;
+   border-radius: 4px;
+  width: 40px;
+  color: #fff;
+  line-height: 20px;
+  background-color: #a7cf14;
+  height: 20px;
+}
+input[type=radio] {
+  width: 18px;
+  height: 18px;
+  border: none;
+  background: url("../images/type-check.png") no-repeat;
+  background-size: 18px, 18px;
+  -webkit-appearance: none;
+  vertical-align: top;
+  margin-right: 5px;
+}
+input[type=radio]:checked {
+  background: url("../images/type-checked.png") no-repeat;
+  background-size: 18px, 18px;
+}
+.a-edit,
+.a-delete {
+  font-size: 12px;
+}
+.lack {
+  margin-top: 80px;
+}
+.manageAddress .c-box:after {
+  font-size: 12px;
+}
+.o-name {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.manageAddress .iconfont {
+  font-weight: bold;
+  font-size: 14px;
+}
+.o-address {
+  line-height: 30px;
+}
+.o-address:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  height: 1px;
+  width: 100%;
+  background-color: #dadada;
+  display: block;
+  z-index: 1;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+/******************************地址列表页面end******************************/
 /**
  * 编辑地址页面
  */
@@ -403,3 +533,63 @@ input[type=checkbox]:checked {
   text-align: right;
 }
 /**********************************个人信息页面end**********************************/
+/**********************************添加商品页面begin**********************************/
+.addProduct-content .addSpec{
+  display: block;
+    float: right;
+    color: #fff;
+    background-color: #a7cf14;
+    text-align: center;
+    line-height: 30px;
+    height:30px;
+    border-radius: 4px;
+    width: 120px;
+    font-size: 14px;
+}
+.productImg{
+  margin-top: 20px;
+}
+.pic-box {
+  width: 100%;
+  height: auto;
+  padding-bottom: 1.2rem;
+  margin-left: 0.7rem;
+}
+.pic-box .pic-item {
+  height: 4rem;
+  width: 4rem;
+  border: 0.1rem dashed #999;
+  border-radius: 0.1rem;
+}
+.pic-box .pic-ico {
+  display: block;
+  width: 1.1rem;
+  height: 1.0rem;
+  margin: 0.9rem auto 0.4rem;
+}
+.pic-box .pic-text {
+  color: #999;
+  text-align: center;
+  font-size: 12px;
+}
+.addProduct-content .imgList  {
+    width: 100%;
+    min-height:100px;
+}
+.addProduct-content .imgList li {
+    margin: 0 0 10px 2%;
+    float: left;
+    width: 30%;
+    height: 80px;
+    position: relative;
+}
+.addProduct-content .imgList li img {
+    width: 100%;
+    height: 80px;
+}
+.addProduct-content .p-name{
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 0.75rem;
+}
+/**********************************添加商品页面end**********************************/

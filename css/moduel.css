@@ -1,0 +1,165 @@
+/******************************开团begin******************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    list-style: none;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+.buttons-tab a{
+  font-size: 14px!important;
+}
+.openGroup-content .searchbar{
+  padding: 0;
+  background: #fff;
+  width: 100%;
+  height: 2.4rem;
+  position: relative;
+  // background-size: cover;
+}
+.openGroup-content .searchbar .add-div,.openGroup-content .searchbar .search{
+   float: left;
+ 
+}
+.openGroup-content .searchbar .search{
+  margin: 2% 2%;
+  border: none;
+  padding-left: 0.75rem;
+  width: 70%;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  border-radius: 2px;
+  font-size: 14px;
+  background: #f4f4f4;
+  color: #888888;
+}
+.openGroup-content .searchbar .add-div{
+	width: 9%;
+	margin-left: 3%;
+}
+.openGroup-content .searchbar .search-span{
+   float: right;
+   width: 11%;
+   margin-right: 3%;
+   line-height: 2.4rem;
+   font-size:16px; 
+}
+.openGroup-content .searchbar .add-div img{
+	margin-left: 5px;
+	margin-top: 6px;
+   width: 20px;
+}
+.openGroup-content .searchbar .add-div p{
+	text-align: center;
+   margin:0;
+   color: #a7cf14;
+   font-size: 12px;
+}
+.underline{
+  height:1px;
+}
+.upline:before,
+.underline:after {
+    /*0.5像素的线*/
+    content: '';
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dadada;
+    display: block;
+    z-index: 1;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.openGroup-content .col-80 {
+    margin-left: 0 !important;
+    margin-top: 16px;
+    width: 75%;
+    color: #c1c1c1;
+     padding:10px 0 0 4%;
+    margin: 0;
+}
+.openGroup-content .row .col-20 {
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 0;
+
+}
+.openGroup-content .o-list li{
+      padding: 0 10px 10px ;
+    width: 100%;
+}
+.openGroup-content .col-20 img {
+   width: 100%;
+   height: 6rem;
+}
+.openGroup-content  .s-price{
+  color: #ff6600;
+}
+
+.openGroup-content .p-list {
+    word-wrap: break-word;
+    word-break: normal;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 3px;
+}
+.openGroup-content .o-list {
+  background: #fff;
+}
+.openGroup-content .join-div{
+  float: left;
+}
+.openGroup-content .detailOrder{
+  float: right;
+   background: #ff5000;
+   line-height: 28px;
+   width: 76px;
+   height: 28px;
+   color: #fff;
+   text-align: center;
+   margin-left: 10px;
+}
+.openGroup-content  .time-span{
+  padding:2px 4px;
+  border-radius: 4px;
+   background: #a7cf14;
+   line-height: 28px;
+   height: 28px;
+   color: #fff;
+   text-align: center;
+}
+.openGroup-content .openGroup{
+  float: right;
+  border: 1px solid #c1c1c1;
+   line-height: 28px;
+   width: 76px;
+   height: 28px;
+   color: #c1c1c1;
+   text-align: center;
+}
+.openGroup-content .status-span{
+  color: #ff000c;
+  font-size: 16px;
+}
+/******************************开团end******************************/
