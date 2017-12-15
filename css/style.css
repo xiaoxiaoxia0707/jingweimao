@@ -196,3 +196,105 @@ p {
     float: left; 
 }
 /******************************开团end******************************/
+/******************************分享成功页面begin*****************************/
+.share-body{
+  height: 300px;
+  width: 80%;
+  margin: 10% auto;
+  } 
+ .share-body  .span-title {
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  height:40px;
+  color: #333;
+  background: #f2f2f2;
+ }
+ .share-body .order {  
+   height: 40px;  
+   line-height: 40px;  
+   text-align: center;  
+   width: 80%;
+   margin:0 auto;
+}
+ .share-body .order .line {  
+  margin-top: 19px;
+  width: 30%;
+  float: left;
+  height:1px;
+  background: #ccc;
+}  
+.share-body .order .txt { 
+margin: 0 10px;  
+   color: #a7cf14;  
+    float: left;
+   vertical-align: middle;  
+} 
+
+.share-body .share-content{
+  height:200px;
+  background: #fff;
+
+}
+.share-body .share-content .continue-share{
+  display: block;
+   text-align: center;
+   width: 80%;
+   height: 30px;
+   margin: 0 auto;
+   background:#e02e24;
+   color: #fff;
+   line-height: 30px;
+   border-radius: 4px;
+}
+.share-body .share-content p:first-child{
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.share-body .share-content p{
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+.share-body .share-content .span-go{
+   text-align: center;
+  display: block;
+   width: 80%;
+   height: 30px;
+   margin: 0 auto;
+   color: #e02e24;
+   line-height: 30px;
+   border-radius: 4px;
+   border: 1px solid #e02e24;
+}
+/******************************分享成功页面end*****************************/
+/******************************确认收货成功页面begin*****************************/
+.allOrder-content .icon-bg{
+  width: 100%;
+  background: #fff;
+  height:270px;
+}
+.allOrder-content .icon-bg  img{
+  display: block;
+ width: 200px;
+ height: 200px;
+ margin: 0 auto;
+ padding-top: 40px;
+}
+.allOrder-content .icon-bg h1{
+  text-align: center;
+  font-size: 20px;
+}
+.confirm-content .o-list{
+  margin-top: 20px!important;
+}
+.confirm-content .addComment{
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  width: 90px;
+  background: #ff5000;
+}
+/******************************确认收货成功页面end*****************************/
