@@ -116,9 +116,16 @@
 .tab-label {
     margin-top: 0.1rem;
     font-size: 12px;
+<<<<<<< HEAD
 }
 .button {
   height: 2.25rem !important;
   line-height: 2.25rem !important;
   font-size: 14px;
+=======
+    line-height: normal;
+}
+.bar-tab .tab-item.active, .bar-tab .tab-item:active{
+  color: #a7cf14;
+>>>>>>> 347c349ca7ec352cf37a2baaafc455daf76a7629
 }
