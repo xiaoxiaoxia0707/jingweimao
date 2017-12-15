@@ -293,13 +293,14 @@
     }
     .join {
         position: absolute;
-        right: 1.2rem;
+        right: 0.5rem;
         bottom: 1rem;
         background-color: #eb392f;
         color: #fff;
         font-size: 18px;
         border-radius: 0.3rem;
         padding: 0.2rem 0.5rem;
+        font-size: 16px;
     }
     .person {
         color: #999;
@@ -313,6 +314,9 @@
 .swiper-container {
     height: 18.8rem;
     width: 100%;
+    img{
+      height: 100%;
+    }
     .back,
     .share {
         position: absolute;
@@ -327,10 +331,10 @@
         font-size: 18px;
     }
     .back {
-        left: 1rem;
+        left: 0.5rem;
     }
     .share {
-        right: 1rem;
+        right: 0.5rem;
     }
 }
 
@@ -361,16 +365,23 @@
     .inf-box {
         line-height: 3.5rem;
     }
+    .addre{
+      white-space: nowrap;
+    }
+    .inf-a{
+      padding: 0.3rem;
+    }
     .pic {
         width: 2.55rem;
         height: 2.55rem;
         border-radius: 50%;
+        margin: 0 0.3rem;
     }
     .join {
         background-color: #eb392f;
         color: #fff;
-        line-height: 1.8rem;
-        width: 4rem;
+        line-height: 1.5rem;
+        width: 3.5rem;
         border-radius: 0.2rem;
         text-align: center;
     }
@@ -420,10 +431,14 @@
       border-radius: 50%;
     }
     .img{
+      width: 32%;
       height: 5.35rem;
     }
+    .pic-box{
+      overflow: hidden;
+    }
     .img+.img{
-      margin-left: 3%;
+      margin-left: 2%;
     }
 }
 .items-wrapper{
@@ -529,4 +544,82 @@
     font-size: 18px;
     font-weight: bold;
   }
+}
+.spec-box{
+  display: none;
+   position: absolute;
+    width: 100%;
+    z-index: 3;
+    line-height: 1.1rem;
+    text-align: center;
+    background-color: #fff;
+    bottom: 0;
+    .goodpic{
+      position: absolute;
+      width: 6.1rem;
+      height: 6.1rem;
+      border-radius: 0.2rem;
+      border: 0.05rem solid #999;
+      top: -0.8rem;
+      left: 0.5rem;
+    }
+    .spec-main{
+      margin: 0.5rem 7% 1rem 43%;
+      width: 50%;
+      text-align: left;
+    }
+    .spec{
+      width: 29%;
+      margin-left: 3%;
+      line-height: 1.8rem;
+      border-radius: 0.4rem;
+      background-color: #f5f5f5;
+      font-size: 14px;
+      margin-bottom: 0.5rem;
+    }
+    .active{
+      background-color: #fa8300;
+      color: #fff;
+    }
+    .numsel{
+      box-sizing:border-box;
+      padding: 0.5rem;
+      line-height: 1.95rem;
+    }
+    .reduce,.add{
+      display: inline-block;
+      width: 2.35rem;
+      height: 1.95rem;
+      text-align: center;
+      background-color: #f5f5f5;
+      border-radius: 0.2rem;
+      font-size: 20px;
+      font-weight: bold;
+      color: #999;
+    }
+    .bottom{
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      color: #fff;
+    }
+    .goCart{
+      background-color: #424242;
+    }
+    .joingroup{
+      background-color: #ffb701;
+    }
+    .close-box{
+      position: absolute;
+      top: 0.3rem;
+      right: 0.3rem;
+      color: #999999;
+      font-size: 1.0rem;
+      font-weight: bold;
+    }
+    .mb{
+      padding-bottom: 4rem;
+    }
 }
