@@ -255,6 +255,7 @@
     margin-bottom: 3rem;
 }
 .expand{
+     display: none;
      position: fixed;
      top: 0;
      z-index: 2;
